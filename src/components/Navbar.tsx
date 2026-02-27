@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../i18n';
 import { Globe, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import Logo from '@/assets/Logo-v1.png'
 
 export default function Navbar() {
   const { language, setLanguage, t } = useLanguage();
@@ -34,7 +35,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <div className="h-8 rounded-full flex items-center justify-center">
             {/* Placeholder for your actual logo */}
-            <img src="../../assets/Logo-v1.png" alt="Logo" className="w-full h-full object-cover" />
+            <img src={Logo} alt="Logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-medium tracking-tight">César Caus</span>
         </div>

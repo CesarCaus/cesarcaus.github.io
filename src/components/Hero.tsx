@@ -2,6 +2,7 @@ import React from 'react';
 import { useLanguage } from '../i18n';
 import { ArrowRight, Code2, LineChart } from 'lucide-react';
 import { motion } from 'motion/react';
+import CesarImage from '@/assets/cesar-image.png'
 
 export default function Hero() {
   const { t } = useLanguage();
@@ -63,7 +64,7 @@ export default function Hero() {
         >
           <div className="relative w-full aspect-[4/5] max-w-md mx-auto rounded-3xl overflow-hidden border border-zinc-800 bg-zinc-900/50 shadow-2xl group">
             <img
-              src="../../assets\cesar-image.png"
+              src={CesarImage}
               alt="César Caus"
               className="w-full h-full object-cover object-center grayscale opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
             />
