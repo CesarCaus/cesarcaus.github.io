@@ -33,7 +33,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-8 rounded-full flex items-center justify-center">
+          <div className="w-10 h-8 rounded-full flex items-center justify-center">
             {/* Placeholder for your actual logo */}
             <img src={Logo} alt="Logo" className="w-full h-full object-cover" />
           </div>
